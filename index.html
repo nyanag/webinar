@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Webinar</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- <link rel="stylesheet" href="css/skeleton.css"> -->
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header id="header" class="header">
+    <div class="container">
+      <div class="logo">
+        <a href="https://dscvit.com/">
+          <img src="img/dsc-logo.svg" id="logo">
+        </a>
+      </div>
+      <div class="cart">
+        <a href="https://github.com/GDGVIT">
+          <img src="img/GitHub.png" id="img-carrito">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div id="lista-cursos">
+    <h1 id="pb-5">Courses</h1>
+
+    <div class="cursos__container">
+      <div class="curso__item">
+        <div class="curso__card">
+          <a href="https://www.udemy.com/course/getgoing/">
+            <img src="img/Gocourse.jpg" class="imagen__curso">
+          </a>
+          <div class="info__card">
+            <h4>Get <span style="color: aqua; font-weight: 600;">GO</span>ing</h4>
+            <img src="img/estrellas.png">
+            <p><span class="precio">&#8377 200</span> <span class="discount">FREE!</span> </p>
+            <a href="#" class="toggle" data-id="1">More Info</a>
+          </div>
+        </div>
+        <!--.card-->
+      </div>
+
+      <div class="curso__item">
+        <div class="curso__card">
+          <a href="https://www.youtube.com/watch?v=cFxP0eDJ-30&list=PLiI1-GFGRl4tituXmB3m7aENDsuxOMgUD">
+            <img src="img/Flutter.png" class="imagen__curso">
+          </a>
+          <div class="info__card">
+            <h4>Flutter for Beginners</h4>
+            <img src="img/estrellas.png">
+            <p><span class="precio">&#8377 200</span> <span class="discount">FREE!</span> </p>
+            <a href="#" class="toggle" data-id="2" id="toggle" onclick="Toggle()">More Info</a>
+            <p style="display: none; width: 100%; word-break: break-all;" id="desc_1">DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="curso__item">
+        <div class="curso__card">
+          <img src="img/ml.png" class="imagen__curso">
+          <div class="info__card">
+            <h4>Machine Learning using Python</h4>
+            <img src="img/estrellas.png">
+            <p><span class="precio">&#8377 200</span> <span class="discount">&#8377 15</span> </p>
+            <a href="#" class="toggle" data-id="3">More Info</a>
+          </div>
+        </div>
+        <!--.card-->
+      </div>
+
+      <div class="curso__item">
+        <div class="curso__card">
+          <img src="img/django.jpg" class="imagen__curso">
+          <div class="info__card">
+            <h4>Learn Django the easy way</h4>
+            <img src="img/estrellas.png">
+            <p><span class="precio">&#8377 200</span> <span class="discount">&#8377 15</span> </p>
+            <a href="#" class="toggle" data-id="4">More Info</a>
+          </div>
+        </div>
+        <!--.card-->
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
