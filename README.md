@@ -1,9 +1,7 @@
-# JS Shopping cart
-A simple shopping cart created with pure Javascript, Html and CSS. The items can be saved in the shopping cart thanks to the property of Local Storage.
+# Introduction to Web Development
 
-![Image design](/img/project-cart-design.jpg)
+This is a simple project I made for a demo in my webinar [Introduction to Web Development](https://www.youtube.com/watch?v=FMSSzI3zaw4)
 
-Project from Udemy course [JavaScript Moderno](https://www.udemy.com/javascript-moderno-guia-definitiva-construye-10-proyectos)
 
 Technologies used:
 
